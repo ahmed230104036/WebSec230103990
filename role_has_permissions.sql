@@ -59,7 +59,8 @@ INSERT INTO `role_has_permissions` (`permission_id`, `role_id`) VALUES
 (13, 4),
 (14, 4),
 (17, 4),
-(18, 5);
+(18, 5),
+(24, 1); -- add this line to give add_review to role 1 (admin)
 
 --
 -- Indexes for dumped tables
